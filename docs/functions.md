@@ -22,7 +22,6 @@ All types within a function header must be explicit as they cannot be efficientl
 
 
 ??? example
-
 	This function takes no inputs, but outputs one int
 	```uniview
 	fn main(): int {
