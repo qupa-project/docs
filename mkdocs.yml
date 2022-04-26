@@ -1,4 +1,5 @@
 site_name: Uniview Docs
+site_url: https://uniview.qupa.org
 repo_url: https://github.com/qupa-project/uniview
 theme:
   name: material
