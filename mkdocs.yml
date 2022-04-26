@@ -1,0 +1,68 @@
+site_name: Uniview Docs
+repo_url: https://github.com/qupa-project/uniview
+theme:
+  name: material
+  features:
+    - search.suggest
+    - header.autohide
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: pink
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: pink
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+plugins:
+  - search:
+      prebuild_index: true
+  # - offline
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+
+nav:
+  - Home: index.md
+  - Docs:
+    - Installation:
+      - setup/index.md
+    - Variables and Values:
+      - variables/index.md
+      - variables/declaration.md
+      - variables/type-systems.md
+    - First Execution:
+      - first-execution/index.md
+      - first-execution/hello-world.md
+      - first-execution/arguments.md
+    - Functions: functions.md
+    - Expressions: expressions.md
+    - Flow Control:
+      - flow-control/index.md
+      - flow-control/if-statements.md
+    - Structures: structures/index.md
+    - Classes: classes/index.md
+    - Interfacing with Foreign Functions:
+      - ffi/index.md
+      - ffi/include.md
+      - ffi/structures.md
+      - ffi/primitives.md
+  - API:
+    - Builtins:
+      - builtins/index.md
+      - builtins/typecast.md
+      - builtins/sizeof.md
+      - builtins/bitcast.md
+    - Standard Library: std/index.md
