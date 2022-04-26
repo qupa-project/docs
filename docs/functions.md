@@ -21,7 +21,7 @@ Hence you cannot have two instances of the same function.
 All types within a function header must be explicit as they cannot be efficiently infered.
 
 
-??? Examples
+??? example
 
 	This function takes no inputs, but outputs one int
 	```uniview
@@ -51,7 +51,7 @@ Any value that is lent, is actually parsed forward,
 then the function returns an extra result which is then reassigned to the same name.
 
 
-??? Examples
+??? example
 	Here is an example of adding integers not using lending.
 	```uniview
 	fn main() {
