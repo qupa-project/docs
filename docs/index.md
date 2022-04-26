@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+# Uniview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The core concept behind the language is adding the smallest restrictions of variable visibility and lifetime to create massively possitive side affects. Each value may only be viewed once, the only way to re-view a value is if a clone was produced within the first sighting. Otherwise values are treated as complete black boxes until viewing is necessary.
 
-## Commands
+```uniview
+let p = Blank#[Person]();
+print($p); // prints a clone of p
+print(p); // p is consumed by print
+// p is now undefined
+```
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+There is also another very important concept to this language of inline-returns. This can be thought of as like lending a value forwards, however it would be more accurate to say you are giving the value forward, then reassigning that name to the result.
 
-## Project layout
+```uniview
+age($p);
+print(p); // no change as a clone was passed
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+age(@p);
+print(p); // the person is now older
+```
