@@ -20,8 +20,9 @@ theme:
     - search.suggest
     - header.autohide
     - content.code.annotate
-    # - navigation.tabs
+    - navigation.tabs
     - navigation.indexes
+    - navigation.instant
     - toc.integrate
   palette:
     - scheme: default
@@ -71,6 +72,7 @@ nav:
     - Interfacing with Foreign Functions:
       - ffi/index.md
       - ffi/include.md
+      - ffi/lending.md
       - ffi/structures.md
       - ffi/primitives.md
   - API:
