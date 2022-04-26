@@ -1,27 +1,28 @@
 # Installation
 
 There are only three main requirements to install uniview.
-	#. Clang++ v12 or greater
-	#. Having NPM installed
-	#. NodeJS v14 or greater
+
+- Clang++ v12 or greater
+- Having NPM installed
+- NodeJS v14 or greater
 
 
 ## Checking Prerequisites
 
 Checking Clang Install
 	To check you have the correct version of clang installed, simply run the command:
-```
+```sh
 clang++ --version
 ```
 
 
 Checking NPM install
-```
+```sh
 npm -v
 ```
 
 Checking Node install
-```
+```sh
 node -v
 ```
 
@@ -29,7 +30,7 @@ node -v
 ## Installing Uniview
 
 Simply run:
-```
+```sh
 npm install -g @qupa/uniview
 ```
 
@@ -41,6 +42,6 @@ There is a VSCode extension called ``Uniview Language`` which is the offical VSC
 
 
 ## Checking Installation
-```
+```sh
 uvc --version
 ```
