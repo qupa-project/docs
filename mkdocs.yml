@@ -1,6 +1,8 @@
 site_name: Uniview Docs
 site_url: https://uniview.qupa.org/
+repo_name: Uniview
 repo_url: https://github.com/qupa-project/uniview/
+edit_uri: https://github.com/qupa-project/docs/main/docs
 theme:
   name: material
   icon:
@@ -17,6 +19,7 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
+    repo: fontawesome/brands/github-square
   features:
     - search.suggest
     - header.autohide
@@ -36,10 +39,15 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+  language: en
 plugins:
   - search:
       prebuild_index: true
   # - offline
+  - git-revision-date:
+      enabled_if_env: CI
+  - git-revision-date-localized:
+      fallback_to_build_date: true
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -48,6 +56,14 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/dqcenR2n6m
+    - icon: fontawesome/brands/github
+      link: https://github.com/qupa-lang/uniview
+copyright: Copyright &copy; 2021 Ajani James Bilby
 
 
 nav:
