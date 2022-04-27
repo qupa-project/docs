@@ -99,3 +99,4 @@ nav:
       - builtins/sizeof.md
       - builtins/bitcast.md
     - Standard Library: std/index.md
+  - Qupa: https://www.qupa.org/
