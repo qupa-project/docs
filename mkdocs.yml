@@ -1,8 +1,8 @@
-site_name: Uniview Docs
+site_name: Uniview
 site_url: https://uniview.qupa.org/
 repo_name: Uniview
 repo_url: https://github.com/qupa-project/uniview/
-edit_uri: https://github.com/qupa-project/docs/tree/main/docs
+edit_uri: https://github.com/qupa-project/uniview-docs/tree/main/docs
 theme:
   name: material
   icon:
