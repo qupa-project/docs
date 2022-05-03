@@ -1,10 +1,12 @@
 site_name: Uniview
 site_url: https://uniview.qupa.org/
+site_description: View once immutability enabling the safeties of immutable code, while enjoying near procedural performance
 repo_name: Uniview
 repo_url: https://github.com/qupa-project/uniview-lang
 edit_uri: https://github.com/qupa-project/uniview-docs/tree/main/docs
 theme:
   name: material
+  custom_dir: overrides
   icon:
     admonition:
       note: octicons/tag-16
@@ -30,15 +32,17 @@ theme:
     - toc.integrate
   palette:
     - scheme: default
-      primary: pink
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-    - scheme: slate
       primary: pink
+      accent: purple
+    - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+      primary: pink
+      accent: purple
   language: en
 plugins:
   - search:
@@ -51,6 +55,7 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - meta
   - pymdownx.highlight:
       use_pygments: true
   - pymdownx.superfences
