@@ -1,7 +1,7 @@
 site_name: Uniview
 site_url: https://uniview.qupa.org/
 site_description: View once immutability enabling the safeties of immutable code, while enjoying near procedural performance
-repo_name: Uniview
+repo_name: Uniview Language
 repo_url: https://github.com/qupa-project/uniview-lang
 edit_uri: https://github.com/qupa-project/uniview-docs/tree/main/docs
 theme:
