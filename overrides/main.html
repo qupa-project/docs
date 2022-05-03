@@ -3,11 +3,11 @@
   {% block extrahead %}
     <meta name="theme-color" content="#e92063">
 
-    {% set title = config.site_name %}
+    {% set meta_title = config.site_name %}
     {% if page and page.meta and page.meta.title %}
-      {% set title = title ~ " - " ~ page.meta.title %}
+      {% set meta_title = title ~ " - " ~ page.meta.title %}
     {% elif page and page.title and not page.is_homepage %}
-      {% set title = title ~ " - " ~ page.title %}
+      {% set meta_title = title ~ " - " ~ page.title %}
     {% endif %}
     {% if page and page.meta and page.meta.description %}
       {% set description = page.meta.description %}
@@ -15,7 +15,7 @@
       {% set description = config.site_description %}
     {% endif %}
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:meta_title" content="{{ meta_title }}" />
     <meta property="og:description" content="{{ description }}" />
     <meta property="og:url" content="{{ page.canonical_url }}" />
     <!-- <meta property="og:image" content="<url>" /> -->
