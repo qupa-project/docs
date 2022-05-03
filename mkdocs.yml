@@ -1,7 +1,7 @@
 site_name: Uniview
 site_url: https://uniview.qupa.org/
 repo_name: Uniview
-repo_url: https://github.com/qupa-project/uniview/
+repo_url: https://github.com/qupa-project/uniview-lang
 edit_uri: https://github.com/qupa-project/uniview-docs/tree/main/docs
 theme:
   name: material
@@ -62,7 +62,7 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/dqcenR2n6m
     - icon: fontawesome/brands/github
-      link: https://github.com/qupa-lang/uniview
+      link: https://github.com/qupa-project/uniview-lang
 copyright: Copyright &copy; 2021 Ajani James Bilby
 
 
