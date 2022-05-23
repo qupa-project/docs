@@ -16,7 +16,7 @@ Attempting to use an undefined value will result in a crash at compile time.
 !!! info inline
 	This example will not compile, as line 3 attempts to use an undefined value.
 
-```rust hl_lines="2" linenums="1"
+```uniview hl_lines="2" linenums="1"
 let a: int = 0;
 println(a); // (1)
 println(a);
