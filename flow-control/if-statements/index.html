@@ -1021,22 +1021,31 @@
 
 <h1 id="if-statements">If Statements</h1>
 <p>Based on a boolean opperator, then executes a certain branch of code
-```uniview line_no="1"
-if (a &gt; b) {
-    println("Greater");
-} else {
-    println("Less than or equal to")
-}
-<div class="highlight"><pre><span></span><code>Extra conditions can also be chained on failure of proceeding cases
-```uniview line_no=&quot;1&quot;
-    if (a % 5 == 0) {
-        println (&quot;Multiple of 5&quot;);
-    } elif (a % 3 == 0) {
-        println (&quot;Multiple of 3&quot;);
-    } elif (a % 2 == 0) {
-        println (&quot;Even number)
-    }
-</code></pre></div></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Greater&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Less than or equal to&quot;</span><span class="p">)</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</code></pre></div></td></tr></table></div></p>
+<p>Extra conditions can also be chained on failure of proceeding cases
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="n">println</span><span class="w"> </span><span class="p">(</span><span class="s">&quot;Multiple of 5&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="n">elif</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="n">println</span><span class="w"> </span><span class="p">(</span><span class="s">&quot;Multiple of 3&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="n">elif</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="n">println</span><span class="w"> </span><span class="p">(</span><span class="s">&quot;Even number)</span>
+<span class="s">    }</span>
+</code></pre></div></td></tr></table></div></p>
 <p>The <code>elif</code> statement must always proceed either an <code>if</code> statement or another <code>elif</code> statement.
 The <code>else</code> statement may only follow an <code>if</code> statement.
 However neither <code>elif</code>, nor <code>else</code> is required for a valid <code>if</code> statement.</p>
@@ -1046,7 +1055,7 @@ However neither <code>elif</code>, nor <code>else</code> is required for a valid
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 26, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 23, 2022</span>
       
     
   </small>
