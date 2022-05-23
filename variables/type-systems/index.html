@@ -1079,10 +1079,10 @@ This allows you to reuse these values.
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
-<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code>let a = 3;
-println(a); <span class="c c-Singleline">// 3</span>
-println(a); <span class="c c-Singleline">// 3</span>
-println(a); <span class="c c-Singleline">// 3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"></span>
+<span class="n">println</span><span class="p">(</span><span class="n">a</span><span class="p">);</span><span class="w"> </span><span class="c1">// 3</span><span class="w"></span>
+<span class="n">println</span><span class="p">(</span><span class="n">a</span><span class="p">);</span><span class="w"> </span><span class="c1">// 3</span><span class="w"></span>
+<span class="n">println</span><span class="p">(</span><span class="n">a</span><span class="p">);</span><span class="w"> </span><span class="c1">// 3</span><span class="w"></span>
 </code></pre></div></td></tr></table></div></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1146,9 +1146,9 @@ println(a); <span class="c c-Singleline">// 3</span>
 <p>Values of this type must always be consumed.
 In the first example since <code>Car</code> is a <code>class</code> it means it follows a linear type system - hence it would crash the earlier code snippet as the value is never consumed.
 To recreate the snippet in a form that would compile, we would write.
-<div class="highlight"><pre><span></span><code>let a = Car.New();
-let b = a;
-delete b;
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Car</span><span class="p">.</span><span class="n">New</span><span class="p">();</span><span class="w"></span>
+<span class="kd">let</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w"></span>
+<span class="n">delete</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w"></span>
 </code></pre></div></p>
 <p>After the final line, we know <code>a</code> was consumed in the assignment for <code>b</code> - and <code>b</code> was deleted.
 So all values have been destroyed, so it's safe to execute.</p>
@@ -1163,10 +1163,10 @@ You do not need to read or understand these features.</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
-<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code>struct Person {}
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">struct</span> <span class="nc">Person</span><span class="w"> </span><span class="p">{}</span><span class="w"></span>
 
-let a = Blank#[Person]();
-<span class="hll">print(a);
+<span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Blank</span><span class="p">#[</span><span class="n">Person</span><span class="p">]();</span><span class="w"></span>
+<span class="hll"><span class="n">print</span><span class="p">(</span><span class="n">a</span><span class="p">);</span><span class="w"></span>
 </span></code></pre></div></td></tr></table></div></p>
 <p>After the final line in the above example, <code>a</code> becomes undefined, as the value was consumed by the <code>print</code> function.
 However if that line was commented out, there would also be no error.</p>

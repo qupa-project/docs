@@ -1015,17 +1015,17 @@
 
 <h1 id="uniview">Uniview</h1>
 <p>The core concept behind the language is adding the smallest restrictions of variable visibility and lifetime to create massively possitive side affects. Each value may only be viewed once, the only way to re-view a value is if a clone was produced within the first sighting. Otherwise values are treated as complete black boxes until viewing is necessary.
-<div class="highlight"><pre><span></span><code>let p = Blank#[Person]();
-print($p); <span class="c c-Singleline">// prints a clone of p</span>
-print(p); <span class="c c-Singleline">// p is consumed by print</span>
-<span class="c c-Singleline">// p is now undefined</span>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Blank</span><span class="p">#[</span><span class="n">Person</span><span class="p">]();</span><span class="w"></span>
+<span class="n">print</span><span class="p">(</span>$p); <span class="c1">// prints a clone of p</span><span class="w"></span>
+<span class="n">print</span><span class="p">(</span><span class="n">p</span><span class="p">);</span><span class="w"> </span><span class="c1">// p is consumed by print</span><span class="w"></span>
+<span class="c1">// p is now undefined</span><span class="w"></span>
 </code></pre></div></p>
 <p>There is also another very important concept to this language of inline-returns. This can be thought of as like lending a value forwards, however it would be more accurate to say you are giving the value forward, then reassigning that name to the result.
-<div class="highlight"><pre><span></span><code>age($p);
-print(p); <span class="c c-Singleline">// no change as a clone was passed</span>
+<div class="highlight"><pre><span></span><code><span class="n">age</span><span class="p">(</span>$p);
+print(p); <span class="c1">// no change as a clone was passed</span><span class="w"></span>
 
-age(@p);
-print(p); <span class="c c-Singleline">// the person is now older</span>
+<span class="n">age</span><span class="p">(</span><span class="o">@</span><span class="n">p</span><span class="p">);</span><span class="w"></span>
+<span class="n">print</span><span class="p">(</span><span class="n">p</span><span class="p">);</span><span class="w"> </span><span class="c1">// the person is now older</span><span class="w"></span>
 </code></pre></div></p>
 
   <hr>

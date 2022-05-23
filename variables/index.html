@@ -1014,11 +1014,15 @@
 Instead of thinking about assigning values to variables, it would be more accurate to say that you're giving a name to a value.
 You could think about it like naming a car; if you provide a car with a name, it doesn't change anything about the car itself or where it is stored - instead now you just have a way to refer to it.</p>
 <p>Continuing with this metaphor, it would be confusing for any specific car to have multiple names; hence, it loses any previous name when receiving a new one.</p>
-<div class="highlight"><pre><span></span><code>let a = Car.New();
-let b = a;
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Car</span><span class="p">.</span><span class="n">New</span><span class="p">();</span><span class="w"> </span><span class="c1">//(1)</span><span class="w"></span>
+<span class="kd">let</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w"> </span><span class="c1">//(2)</span><span class="w"></span>
 </code></pre></div>
-<p>At line one, a blank <code>Car</code> is created, then the compiler knows that the term <code>a</code> refers to the car generated.
-Once line two then has no affect at runtime, however the compiler now knows that <code>b</code> refers to the car - and <code>a</code> now becomes undefined</p>
+<ol>
+<li>A new car is created, and the name <code>a</code> now refers to it.</li>
+<li><code>a</code> is now undefined, as the value has been handed to <code>b</code></li>
+</ol>
+<p>Initally a <code>Car</code> is created, then the compiler knows this value will be referred to as <code>a</code>. Then the value which was previously refered to as <code>a</code> is now being renamed to <code>b</code> - leaving <code>a</code> as an undefined variable. The compiler will now throw an error if <code>a</code> is attempted to be used, as it refers to no value.</p>
+<p>The transfer of a value between variable names has no compile time affect, unless that name needs to be recomposed into a structure, class, or actor.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The example above is using a linear type, this means a value is used always once. Hence it can only be used one time, but also cannot be left dangling and must always be consumed.
@@ -1030,7 +1034,7 @@ Above ommits the destruction of car as that concept is discussed later.</p>
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 26, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 23, 2022</span>
       
     
   </small>

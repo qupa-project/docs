@@ -1109,16 +1109,16 @@ Hence you cannot have two instances of the same function.</p>
 <details class="example">
 <summary>Example</summary>
 <p>This function takes no inputs, but outputs one int
-<div class="highlight"><pre><span></span><code>fn main(): int {
-    <span class="c c-Singleline">// body</span>
-    return 0;
-}
+<div class="highlight"><pre><span></span><code><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="c1">// body</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div></p>
 <p>This function takes two input ints, but returns no output
-<div class="highlight"><pre><span></span><code>fn main(a: int, b: int): void {
-    <span class="c c-Singleline">// body</span>
-    return;
-}
+<div class="highlight"><pre><span></span><code><span class="k">fn</span> <span class="nf">main</span><span class="p">(</span><span class="n">a</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="p">)</span><span class="o">:</span><span class="w"> </span><span class="n">void</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="c1">// body</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div></p>
 </details>
 <h2 id="calling-convensions">Calling Convensions</h2>
@@ -1131,26 +1131,26 @@ then the function returns an extra result which is then reassigned to the same n
 <details class="example">
 <summary>Example</summary>
 <p>Here is an example of adding integers not using lending.
-<div class="highlight"><pre><span></span><code>fn main() {
-    let value = 3;
-    value = add(value, 3);
-    println(value); <span class="c c-Singleline">// 9</span>
-}
+<div class="highlight"><pre><span></span><code><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">add</span><span class="p">(</span><span class="n">value</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="n">value</span><span class="p">);</span><span class="w"> </span><span class="c1">// 9</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-fn add(a: int, b: int) {
-    return a + b;
-}
+<span class="k">fn</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div></p>
 <p>Here is an example of adding integers not using lending.
-<div class="highlight"><pre><span></span><code>fn main() {
-    let value = 3;
-    add(@value, 3);
-    println(value); <span class="c c-Singleline">// 9</span>
-}
+<div class="highlight"><pre><span></span><code><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">add</span><span class="p">(</span><span class="o">@</span><span class="n">value</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="n">value</span><span class="p">);</span><span class="w"> </span><span class="c1">// 9</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-fn add(a: @int, b: int) {
-    a = a + b;
-}
+<span class="k">fn</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="o">:</span><span class="w"> </span><span class="o">@</span><span class="n">int</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div></p>
 </details>
 <h4 id="why-using-lending-the-two-examples-are-the-same-length">Why using lending? The two examples are the same length.</h4>
@@ -1165,7 +1165,7 @@ it is generally better to use lending for any none <code>normal</code> type valu
 <h4 id="what-happens-to-a-name-while-a-value-is-lent">What happens to a name while a value is lent?</h4>
 <p>While a value is lent the name will appear undefined, only once the value has returned will the name be reuseable
 The below example will not compile as for the second argument is attempting to lend a now undefind value, because <code>a</code> has already been temporarily consumed.
-<div class="highlight"><pre><span></span><code>consume(@a, @a);
+<div class="highlight"><pre><span></span><code><span class="n">consume</span><span class="p">(</span><span class="o">@</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="o">@</span><span class="n">a</span><span class="p">);</span><span class="w"></span>
 </code></pre></div></p>
 
   <hr>
