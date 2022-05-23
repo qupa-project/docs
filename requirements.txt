@@ -1,3 +1,4 @@
 mkdocs-material >= 5.0.2
 mkdocs-git-revision-date-plugin
+mkdocs-git-revision-date-localized-plugin
 git+https://github.com/qupa-project/pymdown-lexers.git
