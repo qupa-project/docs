@@ -1,7 +1,7 @@
 # If Statements
 
 Based on a boolean opperator, then executes a certain branch of code
-```uniview line_no="1"
+```uniview linenums="1"
 if (a > b) {
 	println("Greater");
 } else {
@@ -10,7 +10,7 @@ if (a > b) {
 ```
 
 Extra conditions can also be chained on failure of proceeding cases
-```uniview line_no="1"
+```uniview linenums="1"
 	if (a % 5 == 0) {
 		println ("Multiple of 5");
 	} elif (a % 3 == 0) {

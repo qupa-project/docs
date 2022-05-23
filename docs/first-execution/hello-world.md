@@ -2,7 +2,7 @@
 
 First of all we are just going to create a file called ``hello.uv`` with the following code.
 
-```uniview line_no="1"
+```uniview linenums="1"
 import "print.uv";
 
 fn main(): int {
