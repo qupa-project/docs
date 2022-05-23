@@ -1052,17 +1052,16 @@
 
 <h1 id="hello-world">Hello World</h1>
 <p>First of all we are just going to create a file called <code>hello.uv</code> with the following code.</p>
-<div class="highlight"><pre><span></span><code><span class="n">import</span><span class="w"> </span><span class="s">&quot;print.uv&quot;</span><span class="p">;</span><span class="w"></span>
-
-<span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">);</span><span class="w"></span>
-
-<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<p>```uniview line_no="1"
+import "print.uv";</p>
+<p>fn main(): int {
+    println("Hello World!");</p>
+<div class="highlight"><pre><span></span><code>return 0;
 </code></pre></div>
-<p>Once we have that, simply run the command
-<div class="highlight"><pre><span></span><code><span class="n">uvc</span><span class="w"> </span><span class="n">hello</span><span class="p">.</span><span class="n">uv</span><span class="w"></span>
-</code></pre></div></p>
+<p>}
+<code>Once we have that, simply run the command</code>uniview
+uvc hello.uv
+```</p>
 <p>Then you should see the output
 <div class="highlight"><pre><span></span><code>Hello World!
 </code></pre></div></p>
@@ -1088,7 +1087,7 @@ Hence why we saw it.</p>
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 26, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 23, 2022</span>
       
     
   </small>

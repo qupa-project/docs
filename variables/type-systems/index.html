@@ -1148,7 +1148,7 @@ In the first example since <code>Car</code> is a <code>class</code> it means it 
 To recreate the snippet in a form that would compile, we would write.
 <div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Car</span><span class="p">.</span><span class="n">New</span><span class="p">();</span><span class="w"></span>
 <span class="kd">let</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w"></span>
-<span class="n">delete</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w"></span>
+<span class="k">delete</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w"></span>
 </code></pre></div></p>
 <p>After the final line, we know <code>a</code> was consumed in the assignment for <code>b</code> - and <code>b</code> was deleted.
 So all values have been destroyed, so it's safe to execute.</p>

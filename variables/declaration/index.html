@@ -1021,7 +1021,7 @@
 
 <h1 id="declaration">Declaration</h1>
 <p>When simply declaring a name, the type must be explicitly stated
-<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="p">;</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">a</span>: <span class="kt">int</span><span class="p">;</span><span class="w"></span>
 </code></pre></div></p>
 <p>However if a name is being assigned on declaration the type can be inferred, and thus ommited from the code
 <div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
@@ -1034,7 +1034,7 @@ Attempting to use an undefined value will result in a crash at compile time.</p>
 </div>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="o">:</span><span class="w"> </span><span class="n">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">a</span>: <span class="kt">int</span> <span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
 <span class="hll"><span class="n">println</span><span class="p">(</span><span class="n">a</span><span class="p">);</span><span class="w"> </span><span class="c1">// (1)</span><span class="w"></span>
 </span><span class="n">println</span><span class="p">(</span><span class="n">a</span><span class="p">);</span><span class="w"></span>
 </code></pre></div></td></tr></table></div>
