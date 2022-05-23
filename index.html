@@ -1016,16 +1016,16 @@
 <h1 id="uniview">Uniview</h1>
 <p>The core concept behind the language is adding the smallest restrictions of variable visibility and lifetime to create massively possitive side affects. Each value may only be viewed once, the only way to re-view a value is if a clone was produced within the first sighting. Otherwise values are treated as complete black boxes until viewing is necessary.
 <div class="highlight"><pre><span></span><code>let p = Blank#[Person]();
-print($p); // prints a clone of p
-print(p); // p is consumed by print
-// p is now undefined
+print($p); <span class="c c-Singleline">// prints a clone of p</span>
+print(p); <span class="c c-Singleline">// p is consumed by print</span>
+<span class="c c-Singleline">// p is now undefined</span>
 </code></pre></div></p>
 <p>There is also another very important concept to this language of inline-returns. This can be thought of as like lending a value forwards, however it would be more accurate to say you are giving the value forward, then reassigning that name to the result.
 <div class="highlight"><pre><span></span><code>age($p);
-print(p); // no change as a clone was passed
+print(p); <span class="c c-Singleline">// no change as a clone was passed</span>
 
 age(@p);
-print(p); // the person is now older
+print(p); <span class="c c-Singleline">// the person is now older</span>
 </code></pre></div></p>
 
   <hr>
@@ -1033,7 +1033,7 @@ print(p); // the person is now older
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 23, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 26, 2022</span>
       
     
   </small>

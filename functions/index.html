@@ -1110,13 +1110,13 @@ Hence you cannot have two instances of the same function.</p>
 <summary>Example</summary>
 <p>This function takes no inputs, but outputs one int
 <div class="highlight"><pre><span></span><code>fn main(): int {
-    // body
+    <span class="c c-Singleline">// body</span>
     return 0;
 }
 </code></pre></div></p>
 <p>This function takes two input ints, but returns no output
 <div class="highlight"><pre><span></span><code>fn main(a: int, b: int): void {
-    // body
+    <span class="c c-Singleline">// body</span>
     return;
 }
 </code></pre></div></p>
@@ -1134,7 +1134,7 @@ then the function returns an extra result which is then reassigned to the same n
 <div class="highlight"><pre><span></span><code>fn main() {
     let value = 3;
     value = add(value, 3);
-    println(value); // 9
+    println(value); <span class="c c-Singleline">// 9</span>
 }
 
 fn add(a: int, b: int) {
@@ -1145,7 +1145,7 @@ fn add(a: int, b: int) {
 <div class="highlight"><pre><span></span><code>fn main() {
     let value = 3;
     add(@value, 3);
-    println(value); // 9
+    println(value); <span class="c c-Singleline">// 9</span>
 }
 
 fn add(a: @int, b: int) {
@@ -1173,7 +1173,7 @@ The below example will not compile as for the second argument is attempting to l
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 23, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 26, 2022</span>
       
     
   </small>
