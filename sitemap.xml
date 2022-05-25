@@ -2,122 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://uniview.qupa.org/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/expressions/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/functions/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/builtins/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/builtins/bitcast/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/builtins/sizeof/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/builtins/typecast/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/classes/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/ffi/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/ffi/include/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/ffi/lending/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/ffi/primitives/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/ffi/structures/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/first-execution/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/first-execution/arguments/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/first-execution/hello-world/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/flow-control/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/flow-control/if-statements/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/setup/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/std/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/structures/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/variables/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/variables/declaration/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/variables/type-systems/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
