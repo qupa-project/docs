@@ -2,5 +2,6 @@
 	"esbonio.sphinx.confDir": "",
 	"yaml.schemas": {
 		"https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
-	}
+	},
+	"editor.tabSize": 4
 }

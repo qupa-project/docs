@@ -1,7 +1,11 @@
 ---
+title: Installation
 description: Setup and Installation
+hide:
+  - navigation
+  - toc
+  - footer
 ---
-
 
 # Installation
 

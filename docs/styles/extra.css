@@ -1,0 +1,37 @@
+div.card-grid ul {
+	display: grid !important;
+
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+	grid-gap: 0.4rem;
+}
+
+div.card-grid ul li {
+	display: flex;
+	flex-direction: column;
+
+	align-items: flex-start;
+
+	padding: 0.8rem;
+
+	border: .05rem solid var(--md-default-fg-color--lightest);
+	border-radius: .1rem;
+	margin: 0px !important;
+
+	transition: border-color .3s, box-shadow .3s margin .3s;
+}
+
+div.card-grid ul hr {
+	margin: .6rem 0px;
+	width: 100%;
+}
+
+div.card-grid ul li:hover {
+	box-shadow: var(--md-shadow-z2);
+	border-color: transparent;
+}
+
+
+div.card-grid[actionable] ul li p:last-child {
+	margin-top: auto;
+	display: block;
+}

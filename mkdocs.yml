@@ -6,6 +6,7 @@ repo_url: https://github.com/qupa-project/uniview-lang
 edit_uri: https://github.com/qupa-project/uniview-docs/tree/main/docs
 theme:
   name: material
+  favicon: bootstrap/envelope-paper
   custom_dir: overrides
   icon:
     admonition:
@@ -22,6 +23,7 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
     repo: fontawesome/brands/github-square
+    logo: material/unicycle
   features:
     - search.suggest
     - header.autohide
@@ -55,13 +57,34 @@ plugins:
       fallback_to_build_date: true
 markdown_extensions:
   - admonition
-  - pymdownx.details
+  - attr_list
+  - footnotes
+  - md_in_html
   - meta
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight:
       use_pygments: true
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra_css:
+  - styles/extra.css
 
 extra:
   social:
@@ -74,35 +97,41 @@ copyright: Copyright &copy; 2021 Ajani James Bilby
 
 nav:
   - Home: index.md
-  - Docs:
-    - Installation:
-      - setup/index.md
+
+  - Installation:
+      - installation/index.md
+
+  - Guide: guide/index.md
+
+  - Novice:
     - Variables and Values:
-      - variables/index.md
-      - variables/declaration.md
-      - variables/type-systems.md
+      - guide/variables/index.md
+      - guide/variables/declaration.md
+      - guide/variables/type-systems.md
     - First Execution:
-      - first-execution/index.md
-      - first-execution/hello-world.md
-      - first-execution/arguments.md
-    - Functions: functions.md
-    - Expressions: expressions.md
+      - guide/first-execution/index.md
+      - guide/first-execution/hello-world.md
+      - guide/first-execution/arguments.md
+    - Functions: guide/functions.md
+    - Expressions: guide/expressions.md
     - Flow Control:
-      - flow-control/index.md
-      - flow-control/if-statements.md
-    - Structures: structures/index.md
-    - Classes: classes/index.md
+      - guide/flow-control/index.md
+      - guide/flow-control/if-statements.md
+    - Structures: guide/structures/index.md
+    - Classes: guide/classes/index.md
     - Interfacing with Foreign Functions:
-      - ffi/index.md
-      - ffi/include.md
-      - ffi/lending.md
-      - ffi/structures.md
-      - ffi/primitives.md
+      - guide/ffi/index.md
+      - guide/ffi/include.md
+      - guide/ffi/lending.md
+      - guide/ffi/structures.md
+      - guide/ffi/primitives.md
+
+
   - API:
+    - api/index.md
     - Builtins:
-      - builtins/index.md
-      - builtins/typecast.md
-      - builtins/sizeof.md
-      - builtins/bitcast.md
-    - Standard Library: std/index.md
-  - Qupa: https://www.qupa.org/
+      - api/builtins/index.md
+      - api/builtins/typecast.md
+      - api/builtins/sizeof.md
+      - api/builtins/bitcast.md
+    - Standard Library: api/std/index.md
