@@ -33,7 +33,7 @@ hide:
 
     An introductory guide on how the language works, and how to develop with it
 
-    [:octicons-arrow-right-24: Here](/guide/tutorial/)
+    [:octicons-arrow-right-24: Here](/guide/variables/)
 
 - :material-notebook: API
   
