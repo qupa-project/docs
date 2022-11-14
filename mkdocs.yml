@@ -22,7 +22,7 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-    repo: fontawesome/brands/github-square
+    repo: fontawesome/brands/github
     logo: material/unicycle
   features:
     - search.suggest
@@ -98,10 +98,13 @@ copyright: Copyright &copy; 2021 Ajani James Bilby
 nav:
   - Home: index.md
 
+  - Guide: guide/index.md
+
   - Installation:
       - installation/index.md
 
-  - Guide: guide/index.md
+  - Tutorial:
+    - guide/tutorial/index.md
 
   - Novice:
     - Variables and Values:

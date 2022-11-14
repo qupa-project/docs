@@ -3,5 +3,9 @@
 	"yaml.schemas": {
 		"https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
 	},
-	"editor.tabSize": 4
+	"editor.tabSize": 4,
+	"cSpell.words": [
+		"qupa",
+		"uniview"
+	]
 }

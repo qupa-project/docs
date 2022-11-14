@@ -1,5 +1,7 @@
 ---
 title: Documentation
+search:
+  exclude: true
 hide:
   - navigation
   - toc
@@ -12,24 +14,33 @@ hide:
 !!! warning "Under Construction"
     This section of the website hasn't been fully written yet
 
+
 ## Guides
 
 <div class="card-grid project" actionable markdown>
 
-- :fontawesome-regular-compass: Novice
+- :material-cogs: Installation
   
     ---
 
-    The guide for those who this is their first programming language
+    A guide on how to install and configure the language
 
-    [:octicons-arrow-right-24: Here](/guide/variables/)
+    [:octicons-arrow-right-24: Here](/install/)
 
-- :fontawesome-solid-mountain: Experienced
+- :material-compass: Tutorial
   
     ---
 
-    The introduction for those who have programmed before
+    An introductory guide on how the language works, and how to develop with it
 
-    [:octicons-arrow-right-24: Here](/404) (404)
+    [:octicons-arrow-right-24: Here](/guide/tutorial/)
+
+- :material-notebook: API
+  
+    ---
+
+    An outline off all of the built-in functions, and libraries included with the language
+
+    [:octicons-arrow-right-24: Here](/api/)
 
 </div>
