@@ -6,7 +6,7 @@ repo_url: https://github.com/qupa-project/uniview-lang
 edit_uri: https://github.com/qupa-project/uniview-docs/tree/main/docs
 theme:
   name: material
-  favicon: bootstrap/envelope-paper
+  favicon: /icon/unicycle.png
   custom_dir: overrides
   icon:
     admonition:
