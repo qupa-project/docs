@@ -33,7 +33,7 @@ hide:
 
     An introductory guide on how the language works, and how to develop with it
 
-    [:octicons-arrow-right-24: Here](/guide/variables/)
+    [:octicons-arrow-right-24: Here](/guide/tutorial/)
 
 - :material-notebook: API
   
@@ -42,5 +42,13 @@ hide:
     An outline off all of the built-in functions, and libraries included with the language
 
     [:octicons-arrow-right-24: Here](/api/)
+
+- :material-code-not-equal-variant: Manual
+  
+    ---
+
+    A detailed outline of the language syntax and behaviour.
+
+    [:octicons-arrow-right-24: Here](/guide/manual/variables/)
 
 </div>

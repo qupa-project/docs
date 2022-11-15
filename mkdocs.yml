@@ -105,6 +105,9 @@ nav:
 
   - Tutorial:
     - guide/tutorial/index.md
+    - Variables: guide/tutorial/variables.md
+    - Functions: guide/tutorial/functions.md
+    - Branches: guide/tutorial/branches.md
 
   - Novice:
     - Variables and Values:
@@ -129,7 +132,6 @@ nav:
       - guide/ffi/structures.md
       - guide/ffi/primitives.md
 
-
   - API:
     - api/index.md
     - Builtins:
@@ -138,3 +140,11 @@ nav:
       - api/builtins/sizeof.md
       - api/builtins/bitcast.md
     - Standard Library: api/std/index.md
+
+  - Manual:
+    - Variables: guide/manual/variables.md
+    - Lending: guide/manual/lending.md
+    - Functions: guide/manual/functions.md
+    - Structures: guide/manual/structures.md
+    - Traits: guide/manual/traits.md
+    - Types: guide/manual/types.md
