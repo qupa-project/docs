@@ -108,6 +108,8 @@ nav:
     - Variables: guide/tutorial/variables.md
     - Functions: guide/tutorial/functions.md
     - Branches: guide/tutorial/branches.md
+    - Structures: guide/tutorial/structures.md
+    - Traits: guide/tutorial/traits.md
 
   - Novice:
     - Variables and Values:
@@ -145,6 +147,7 @@ nav:
     - Variables: guide/manual/variables.md
     - Lending: guide/manual/lending.md
     - Functions: guide/manual/functions.md
+    - Lending: guide/manual/functions.md
     - Structures: guide/manual/structures.md
     - Traits: guide/manual/traits.md
     - Types: guide/manual/types.md
