@@ -35,3 +35,8 @@ div.card-grid[actionable] ul li p:last-child {
 	margin-top: auto;
 	display: block;
 }
+
+
+a[small] {
+	font-size: 11pt;
+}
