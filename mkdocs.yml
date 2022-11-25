@@ -31,8 +31,8 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - navigation.instant
+    - navigation.sections
     - navigation.top
-    - toc.integrate
   palette:
     - scheme: default
       toggle:
@@ -104,13 +104,41 @@ nav:
       - installation/index.md
 
   - Tutorial:
-    - guide/tutorial/index.md
-    - Variables: guide/tutorial/variables.md
-    - Functions: guide/tutorial/functions.md
-    - Branches: guide/tutorial/branches.md
-    - Structures: guide/tutorial/structures.md
-    - Traits: guide/tutorial/traits.md
+    - Foundations:
+      - guide/tutorial/index.md
+      - Variables: guide/tutorial/foundation/variable.md
+      - Functions: guide/tutorial/foundation/function.md
+      - Lending: guide/tutorial/foundation/lend.md
+      - Branches: guide/tutorial/foundation/branch.md
+      - Structures: guide/tutorial/foundation/structure.md
+      - Traits: guide/tutorial/foundation/trait.md
+    - Iteration:
+      - guide/tutorial/iteration/index.md
+      - Generators: guide/tutorial/iteration/generator.md
 
+  - API:
+    - api/index.md
+    - Built-ins:
+      - api/built-ins/index.md
+      - api/built-ins/typecast.md
+      - api/built-ins/sizeof.md
+      - api/built-ins/bit-cast.md
+    - Standard Library:
+      - api/std/index.md
+      - String: api/std/string.md
+      - Memory: api/std/memory.md
+
+  - Manual:
+    - guide/manual/index.md
+    - Variables: guide/manual/variables.md
+    - Lending: guide/manual/lending.md
+    - Functions: guide/manual/functions.md
+    - Structures: guide/manual/structures.md
+    - Traits: guide/manual/traits.md
+    - Types: guide/manual/types.md
+    - Return: guide/manual/return.md
+
+  # Deprecated
   - Novice:
     - Variables and Values:
       - guide/variables/index.md
@@ -133,21 +161,3 @@ nav:
       - guide/ffi/lending.md
       - guide/ffi/structures.md
       - guide/ffi/primitives.md
-
-  - API:
-    - api/index.md
-    - Builtins:
-      - api/builtins/index.md
-      - api/builtins/typecast.md
-      - api/builtins/sizeof.md
-      - api/builtins/bitcast.md
-    - Standard Library: api/std/index.md
-
-  - Manual:
-    - Variables: guide/manual/variables.md
-    - Lending: guide/manual/lending.md
-    - Functions: guide/manual/functions.md
-    - Lending: guide/manual/functions.md
-    - Structures: guide/manual/structures.md
-    - Traits: guide/manual/traits.md
-    - Types: guide/manual/types.md
