@@ -2,187 +2,202 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://uniview.qupa.org/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/expressions/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/functions/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/api/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://uniview.qupa.org/api/builtins/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <loc>https://uniview.qupa.org/api/built-ins/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://uniview.qupa.org/api/builtins/bitcast/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <loc>https://uniview.qupa.org/api/built-ins/bit-cast/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://uniview.qupa.org/api/builtins/sizeof/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <loc>https://uniview.qupa.org/api/built-ins/sizeof/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://uniview.qupa.org/api/builtins/typecast/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <loc>https://uniview.qupa.org/api/built-ins/typecast/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/api/std/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/classes/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/ffi/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/ffi/include/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/ffi/lending/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/ffi/primitives/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/ffi/structures/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/first-execution/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/first-execution/arguments/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/first-execution/hello-world/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/flow-control/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/flow-control/if-statements/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://uniview.qupa.org/guide/manual/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/manual/functions/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/manual/lending/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/manual/structures/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/manual/variables/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/structures/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/tutorial/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://uniview.qupa.org/guide/tutorial/branches/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <loc>https://uniview.qupa.org/guide/tutorial/foundation/branch/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://uniview.qupa.org/guide/tutorial/functions/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <loc>https://uniview.qupa.org/guide/tutorial/foundation/function/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://uniview.qupa.org/guide/tutorial/lending/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <loc>https://uniview.qupa.org/guide/tutorial/foundation/lend/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://uniview.qupa.org/guide/tutorial/structures/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <loc>https://uniview.qupa.org/guide/tutorial/foundation/structure/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://uniview.qupa.org/guide/tutorial/traits/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <loc>https://uniview.qupa.org/guide/tutorial/foundation/trait/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://uniview.qupa.org/guide/tutorial/variables/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <loc>https://uniview.qupa.org/guide/tutorial/foundation/variable/</loc>
+         <lastmod>2022-11-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://uniview.qupa.org/guide/tutorial/iteration/</loc>
+         <lastmod>2022-11-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://uniview.qupa.org/guide/tutorial/iteration/generator/</loc>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/variables/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/variables/declaration/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/guide/variables/type-systems/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://uniview.qupa.org/install/</loc>
-         <lastmod>2022-11-16</lastmod>
+         <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
